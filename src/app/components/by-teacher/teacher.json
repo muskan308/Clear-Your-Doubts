@@ -1,0 +1,282 @@
+[
+    {
+        "courseId": 1,
+        "subject": "Computer Science",
+        "courses": [
+            {
+                "id": 1,
+                "name": "INT219",
+                "teachers": [
+                    {"uid" : "11345",
+                    "name" : "Ms. Neha Sharma"},
+                    {
+                        "uid" : "12345",
+                        "name" : "Mr. Manpreet Singh"
+                    }, {
+                        "uid" : "13145",
+                        "name" : "Dr. Pragya Mehra"
+                    },
+                    {
+                        "uid" : "14521",
+                        "name" : "Dr. Majot Kaur"
+                    },
+                    {
+                        "uid" : "15345",
+                        "name" : "Dr. Richa"
+                    }, 
+                    {
+                        "uid" : "16345",
+                        "name" : "Dr. Aishwarya Dixit"
+                    }                    
+            ]
+            },
+            {
+                "id": 2,
+                "name": "CSE332",
+                "teachers": [
+                    {
+                        "uid" : "21345",
+                        "name" : "Tarun"
+                    },
+                    {
+                        "uid" : "22345",
+                        "name" : "Dr. Rohit Kumar"
+                    },
+                    {
+                        "uid" : "23345",
+                        "name" : "Dr. Rohit Kumar"
+                    },
+                    {
+                        "uid" : "24345",
+                        "name" : "Dr. Naitik Singhania"
+                    },
+                    {
+                        "uid" : "25345",
+                        "name" : "Dr. Adhik Mehta"
+                    } 
+                ]
+            },
+            {
+                "id": 3,
+                "name": "CSE322",
+                "teachers": [
+                    {
+                        "uid" : "31245",
+                        "name" : "Ms. Anupama"
+                    }, 
+                    {
+                        "uid" : "32245",
+                        "name" : "Ms. Anupama"
+                    },
+                    {
+                        "uid" : "33245",
+                        "name" : "Dr. Sadhna Khatri"
+                    },
+                    {
+                        "uid" : "34245",
+                        "name" : "Ms. Anuradha Dixit"
+                    },
+                    {
+                        "uid" : "35245",
+                        "name" : "Dr. Kavya Shah"
+                    },
+                    {
+                        "uid" : "36245",
+                        "name" : "Dr. Deepak Bhasandari"
+                    },
+                    {
+                        "uid" : "37245",
+                        "name" : "Dr Vasrsha"
+                    },
+                    {
+                        "uid" : "19345",
+                        "name" : "Dr. Neha Chopra"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "CSE306",
+                "teachers": [
+                    {
+                        "uid" : "41235",
+                        "name" : "Mr. Himesh"
+                    },
+                    {
+                        "uid" : "42235",
+                        "name" : "Dr. Kavisha"
+                    },
+                    {
+                        "uid" : "43235",
+                        "name" : "Dr. Kavisha"
+                    },
+                    {
+                        "uid" : "44235",
+                        "name" : "Dr. Kapoor"
+                    },
+                    {
+                        "uid" : "45235",
+                        "name" : "Dr Snigdha Rana"
+                    }
+                    
+                    
+                    
+                ]
+            },
+            {
+                "id": 5,
+                "name": "CSE205",
+                "teachers": [
+                    {
+                        "uid" : "51234",
+                        "name" : "Dr. Mahesh"
+                    },
+                    {
+                        "uid" : "52234",
+                        "name" : "Dr. Raghav Rai"
+                    },
+                    {
+                        "uid" : "53234",
+                        "name" : "Dr. Mahesh Singh"
+                    },
+                    {
+                        "uid" : "54234",
+                        "name" : "Dr. Sri Ram "
+                    }, 
+                    {
+                        "uid" : "55234",
+                        "name" : "Dr. Krishan"
+                    },
+                    {
+                        "uid" : "56234",
+                        "name" : "Dr Sameer"
+                    }
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": 2,
+        "subject": "Electronics",
+        "courses": [
+            {
+                "id": 1,
+                "name": "INT306",
+                "teachers": [
+                    {
+                        "uid" : "11123",
+                        "name" : "Ms. Kapila Sharma"
+                    },
+                    {
+                        "uid" : "11223",
+                        "name" : "Dr. Manpreet Joshi"
+                    },{
+                        "uid" : "11323",
+                        "name" : "Dr. Meheer Gupta"
+                    },
+                    {
+                        "uid" : "11423",
+                        "name" : "Dr. Kajol"
+                    },
+                    {
+                        "uid" : "11523",
+                        "name" : "Dr. Abhinandan"
+                    } 
+                ]
+            },
+            {
+                "id": 2,
+                "name": "ECE210",
+                "teachers": [
+                    {
+                        "uid" : "12123",
+                        "name" : "Dr. Tarun Kaushik"
+                    },
+                    {
+                        "uid" : "12223",
+                        "name" : "Dr. Rishabh Kumar"
+                    },{
+                        "uid" : "12323",
+                        "name" : "Dr. Keshav"
+                    },
+                    {
+                        "uid" : "12423",
+                        "name" : "Dr. Adhik Mehta"
+                    }                    
+                ]
+            },
+            {
+                "id": 3,
+                "name": "ECE322",
+                "teachers": [
+                    {
+                        "uid" : "13123",
+                        "name" : "Ms. Anupama"
+                    },
+                    {
+                        "uid" : "13223",
+                        "name" : "Dr. Kavya Shah"
+                    },
+                    {
+                        "uid" : "13323",
+                        "name" : "Dr. Deepak Bhasandari"
+                    },
+                    {
+                        "uid" : "13423",
+                        "name" : "Dr Vasrsha"
+                    }   
+                ]
+            },
+            {
+                "id": 4,
+                "name": "PHY119",
+                "teachers": [
+                    {
+                        "uid" : "14123",
+                        "name" : "Mr. Mukesh Rathore"
+                    },
+                    {
+                        "uid" : "14223",
+                        "name" : "Dr. Kunal Mehra"
+                    },
+                    {
+                        "uid" : "14323",
+                        "name" : "Dr. Shivani"
+                    },
+                    {
+                        "uid" : "14423",
+                        "name" : "Dr Amar Singh"
+                    }
+                    
+                    
+                ]
+            },
+            {
+                "id": 5,
+                "name": "CSE105",
+                "teachers": [
+                    {
+                        "uid" : "15123",
+                        "name" : "Dr. Mahesh"
+                    },
+                    {
+                        "uid" : "15223",
+                        "name" : "Dr. Sri Ram "
+                    },
+                    {
+                        "uid" : "15323",
+                        "name" :  "Dr. Krishan"
+                    },
+                    {
+                        "uid" : "15423",
+                        "name" : "Dr Sameer"
+                    }
+                    
+                   
+                    
+                ]
+            }
+        ]
+    }
+]

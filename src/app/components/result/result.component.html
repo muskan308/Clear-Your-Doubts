@@ -1,0 +1,67 @@
+<h6 style="margin-top: 25px; font-size: 20px;">Showing the Availability of the Faculty : </h6>
+            <div>
+                <div class="info m-5">
+                    <div>Faculty : {{facultyInfo.name}}</div>
+                    <div>UID : {{facultyInfo.uid}}</div>
+                    <div>Subject Code : {{facultyInfo.subject}}</div>
+                </div>
+                <div>
+                    <p class="m-5">Available Time (Free time) :</p>
+                    <table class="table m-5">
+                        <tr>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div *ngFor="let time of facultyInfo.freeTime.monday" id="free">
+                                    {{time}}<br>
+                                </div>
+                            </td>
+                            <td>
+                                <div *ngFor="let time of facultyInfo.freeTime.tuesday" id="free">
+                                    {{time}}<br>
+                                </div>
+                            </td>
+                            <td>
+                                <div *ngFor="let time of facultyInfo.freeTime.wednesday" id="free">
+                                    {{time}}<br>
+                                </div>
+                            </td>
+                            <td>
+                                <div *ngFor="let time of facultyInfo.freeTime.thursday" id="free">
+                                    {{time}}<br>
+                                </div>
+                            </td>
+                            <td>
+                                <div *ngFor="let time of facultyInfo.freeTime.friday" id="free">
+                                    {{time}}<br>
+                                </div>
+                            </td>
+                            <td>
+                                <div *ngFor="let time of facultyInfo.freeTime.saturday" id="free">
+                                    {{time}}<br>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="info m-5">
+                    <div>
+                        Room : {{facultyInfo.room}}
+                    </div>
+                    <div>
+                        Cabin Number : {{facultyInfo.cabinNo}}
+                    </div>
+                    
+                </div>
+                <div id="live">
+                    <div>
+                        <a href="https://lpulive.lpu.in/lpu-demo1/messages/2657074" target="_blank"><button class="btn">Contact through LPU Live</button></a>
+                    </div>
+                </div>
+            </div>

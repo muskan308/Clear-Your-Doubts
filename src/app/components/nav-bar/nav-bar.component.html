@@ -1,0 +1,39 @@
+<nav>
+    <div id="nav-bar">
+      <div id="nav-first">
+
+        <div>
+          <div>
+            <a routerLink="/home">
+              <div class="inIcon"><fa-icon class="icon1" [icon]="faHome"></fa-icon></div>
+              <p>Home</p>
+            </a>
+          </div>
+          <div>
+            <a routerLink="/bySubject/uid=">
+              <div class="inIcon">
+                <fa-icon class="icon1" [icon]="faSubject"></fa-icon>
+              </div>
+              <p>Search by Subject</p>
+            </a>
+          </div>
+          <div>
+            <a routerLink="/byTeacher/uid=">
+              <div class="inIcon"><fa-icon class="icon1" [icon]="faTeacher"></fa-icon></div>
+              <p>Search By Teacher</p>
+            </a>
+          </div>
+          <div>
+            <a routerLink="/login" style="cursor:pointer;">
+              <div class="inIcon"><fa-icon class="icon1" [icon]="faSignOut"></fa-icon></div>
+              <p>Sign Out</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="overlay" (click)="navIn()"></div>
+  <div id="menu-out" (click)="handleNav()">
+    <div id="nav-menu"></div>
+  </div>

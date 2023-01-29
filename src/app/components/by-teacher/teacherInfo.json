@@ -1,0 +1,278 @@
+[
+    {
+        "uid" : "11345",
+        "name" : "Ms. Neha Sharma",
+        "subject" : "INT219",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM","3 PM - 4 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM"]
+        },
+        "room" : "34 - 204",
+        "cabinNo" : "21"
+    },
+    {
+        "uid" : "12345",
+        "name" : "Mr. Manpreet Singh",
+        "subject" : "INT219",
+        "freeTime" : {
+            "monday" : ["4 PM - 5 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["2 PM - 3 PM","3 PM - 4 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "3 PM - 4 PM"]
+        },
+        "room" : "34 - 204",
+        "cabinNo" : "22"
+    },
+    {
+        "uid" : "13145",
+        "name" : "Dr. Pragya Mehra",
+        "subject" : "INT219",
+        "freeTime" : {
+            "monday" : ["4 PM - 5 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["2 PM - 3 PM","3 PM - 4 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "3 PM - 4 PM"]
+        },
+        "room" : "34 - 204",
+        "cabinNo" : "23"
+    },
+    {
+        "uid" : "14521",
+        "name" : "Dr. Majot Kaur",
+        "subject" : "INT219",
+        "freeTime" : {
+            "monday" : ["4 PM - 5 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["1 PM -  PM","3 PM - 4 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "3 PM - 4 PM"]
+        },
+        "room" : "34 - 204",
+        "cabinNo" : "25"
+    },
+    {
+        "uid" : "155345",
+        "name" : "Dr. Richa",
+        "subject" : "INT219",
+        "freetime" : {
+            "monday" : ["4 PM - 5 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["1 PM -  PM","3 PM - 4 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "3 PM - 4 PM", "5 PM - 6 PM"]
+        },
+        "room" : "34 - 204",
+        "cabinNo" : "28"
+    },
+    {
+        "uid" : "16345",
+        "name" : "Dr. Aishwarya Dixit",
+        "subject" : "INT219",
+        "freetime" : {
+            "monday" : ["11 AM - 1 PM", "4 PM - 5 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["1 PM -  PM","3 PM - 4 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "3 PM - 4 PM", "5 PM - 6 PM"]
+        },
+        "room" : "34 - 202",
+        "cabinNo" : "38"
+    },
+    {
+        "uid" : "19345",
+        "name" : "Dr. Neha Chopra",
+        "subject" : "CSE322",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM","3 PM - 4 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM"]
+        },
+        "room" : "34 - 204",
+        "cabinNo" : "21"
+    },
+    {
+        "uid" : "31245",
+        "name" : "Ms. Anupama",
+        "subject" : "CSE322",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM","3 PM - 4 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM"]
+        },
+        "room" : "33 - 204",
+        "cabinNo" : "21"
+    },
+    {
+        "uid" : "33245",
+        "name" : "Dr. Sadhna Khatri",
+        "subject" : "CSE322",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "33 - 204",
+        "cabinNo" : "23"
+    },{
+        "uid" : "35245",
+        "name" : "Dr. Kavya Shah",
+        "subject" : "CSE322",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "33 - 204",
+        "cabinNo" : "24"
+    },{
+        "uid" : "41235",
+        "name" : "Mr. Himesh",
+        "subject" : "CSE306",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "34 - 202",
+        "cabinNo" : "24"
+    },{
+        "uid" : "42235",
+        "name" : "Dr. Kavisha",
+        "subject" : "CSE306",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "34 - 202",
+        "cabinNo" : "25"
+    },{
+        "uid" : "51234",
+        "name" : "Dr. Mahesh",
+        "subject" : "CSE205",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "34 - 202",
+        "cabinNo" : "30"
+    },{
+        "uid" : "52234",
+        "name" : "Dr. Raghav Rai",
+        "subject" : "CSE205",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "34 - 202",
+        "cabinNo" : "32"
+    },{
+        "uid" : "53234",
+        "name" : "Dr. Mahesh Singh",
+        "subject" : "CSE205",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "34 - 202",
+        "cabinNo" : "34"
+    },{
+        "uid" : "11123",
+        "name" : "Ms. Kapila Sharma",
+        "subject" : "INT306",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "38 - 202",
+        "cabinNo" : "34"
+    },{
+        "uid" : "11223",
+        "name" : "Dr. Manpreet Joshi",
+        "subject" : "INT306",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "38 - 202",
+        "cabinNo" : "20"
+    },{
+        "uid" : "12123",
+        "name" : "Dr. Tarun Kaushik",
+        "subject" : "ECE210",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "38 - 202",
+        "cabinNo" : "22"
+    }
+    ,{
+        "uid" : "12223",
+        "name" : "Dr. Rishabh Kumar",
+        "subject" : "ECE210",
+        "freeTime" : {
+            "monday" : ["1 PM - 2 PM"],
+            "tuesday" : ["10 AM - 11 AM", "4 PM - 5 PM"],
+            "wednesday" : ["12 PM - 1 PM","2 PM - 3 PM"],
+            "thursday" : ["12 PM - 1 PM", "1 PM - 2 PM"],
+            "friday" : ["3 PM - 4 PM", "4 PM - 5 PM"],
+            "saturday" : ["11 AM - 12 AM", "1 PM - 2 PM", "3 PM - 4 PM"]
+        },
+        "room" : "38 - 202",
+        "cabinNo" : "23"
+    }
+]

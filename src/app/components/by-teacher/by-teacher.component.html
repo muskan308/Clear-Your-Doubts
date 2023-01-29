@@ -1,0 +1,36 @@
+<app-nav-bar></app-nav-bar>
+<div id="search-teacher">
+    <div id="caption">
+        <p>Enter the name of the teacher you want to search</p>
+    </div>
+    <div id="search">
+        <input type="text" name="search" id="search-bar" #search (change) = "getName(search.value)" placeholder="Enter the Teacher Name...">
+        <div>
+            <button class="btn" (click) = "doSearch()">Search</button>
+        </div>
+    </div>
+    <div id="searched-list">
+        <table id="search-table" class="table ">
+            <tr id="search-res" *ngFor = "let info of searches">
+                <td>UID : {{info.uid}}</td>
+                <td>Name : {{info.name}}</td>
+                <td> Subject : {{info.subject}}</td>
+                <td>
+                    <a routerLink = "/byTeacher/{{info.uid}}">
+                        <button class="btn" style="margin: 0;" (click) = "selected(info.uid)">See Availability</button>
+                    </a>
+                </td>
+            </tr>
+            
+        </table>
+        
+    </div>
+    <div id="result" *ngIf="show">
+        <div>
+            <app-result [facultyUpdate] = "facultyUpdate" ></app-result>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <app-footer></app-footer>
+</div>

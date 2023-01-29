@@ -1,0 +1,15 @@
+#all {
+    min-height: 100vh;
+    background: url(../../../images/home.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(74, 74, 77 ); */
+    background-blend-mode: multiply;
+}
+
+#router {
+    height : 100vh;  
+}
+
+

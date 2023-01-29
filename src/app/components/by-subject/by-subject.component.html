@@ -1,0 +1,41 @@
+<app-nav-bar></app-nav-bar>
+<div id="main-box">
+    <div id="dropdown">
+        <div id="list">
+            <div id="depart-name">
+                <select name="depart" id="depart" #depart (change)="getDep(depart.value)">
+                    <option value="">Select the Department Name</option>
+                    <option *ngFor="let val of values" value="{{val.courseId}}">{{val.subject}}</option>
+
+                </select>
+            </div>
+            <div id="course-name">
+                <select name="course" id="course" #course (change)="getCourse(course.value)">
+                    <option value="">Select the Course Name</option>
+                    <option *ngFor="let course of showCourses" value="{{course.id}}">{{course.name}}</option>
+                </select>
+            </div>
+            <div id="teacher-name">
+                <select name="teacher" id="teacher" #teacher (change)="getFaculty(teacher.value)">
+                    <option value="">Select the Teacher Name</option>
+                    <option *ngFor="let teacher of showFacultyObj" value="{{teacher.uid}}">{{teacher.name}}</option>
+                </select>
+            </div>
+        </div>
+        <div id="btn">
+            <a routerLink = "/bySubject/{{facultyUpdate}}">
+                <button (click)="showresult()">Show Availability</button>
+            </a>
+        </div>
+    </div>
+    <div id="result" *ngIf="show">
+        <div>
+            <app-result [facultyUpdate] = "facultyUpdate" ></app-result>
+
+        </div>
+    </div>
+
+</div>
+<div id="footer">
+    <app-footer></app-footer>
+</div>

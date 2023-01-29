@@ -1,0 +1,59 @@
+<div id="main">
+  <div id="content">
+    <div id="head">
+      <span id="log" (click)="change(true)" [ngClass]="login == true? 'selected' : 'non-selected'">Log In</span>
+      <!-- <span><div id="line"></div></span> -->
+      <span id="sign" class="back-color" (click)="change(false)" [ngClass]="login == false? 'selected' : 'non-selected'">
+        Sign In</span>
+    </div>
+    <div *ngIf="login; then thenBlock; else elseBlock"></div>
+    <ng-template #thenBlock>
+      <form id="first-form" [formGroup]="loginForm">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp" required>
+          <div id="emailHelp" *ngIf="emailVal(1).invalid && emailVal(1).touched" class="form-text">Invalid Email</div>
+        </div>
+  
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1" required>
+          <div  class="form-text">Enter atleast 8 character</div>
+        </div>
+        <button type="submit" class="btn btn-success" (click) = "log(1)">
+          <a routerLink="/home" style="color:white; text-decoration: none;"> Submit</a>
+        </button>
+  
+      </form>
+  
+    </ng-template>
+    <ng-template #elseBlock>
+      <form id="second-form" [formGroup]="loginForm2">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" formControlName="email2"
+            required>
+          <div id="emailHelp" *ngIf="emailVal(2).invalid && emailVal(2).touched" class="form-text">Invalid Email</div>
+        </div>
+        <div class="mb-3">
+          <label for="pass1" class="form-label">Enter Password</label>
+          <input type="password" class="form-control" id="pass1" [(ngModel)] = "pass1" formControlName ="password2" required>
+          <div  class="form-text">Enter atleast 8 character</div>
+        </div>
+        <div class="mb-3">
+          <label for="pass2" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control" id="pass2" [(ngModel)] = "pass2" formControlName ="password3" required>
+        </div>
+        <div class="mb-3"><button type="submit" class="btn btn-success" id="sub" [disabled]="!agree" (click) = "log(2)">
+         <a routerLink="/home"  style="color:white; text-decoration: none;"> Submit</a>
+        </button></div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" (click)="isagree(agree)">
+          <label class="form-check-label form-text" for="exampleCheck1">By clicking the Submit Button, you agree
+            to our Terms And Conditions.</label>
+        </div>
+      </form>
+    </ng-template>
+  </div>
+</div>
